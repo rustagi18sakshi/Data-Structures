@@ -52,7 +52,7 @@ public class singleLinkedListFindMiddleNode {
         Node slowPtr = head;
         Node fastPtr = head;
         
-        while(fastPtr!=null && fastPtr.next!=null)   // Traversing till second last node of the list
+        while(fastPtr!=null && fastPtr.next!=null)   
         {
         	slowPtr = slowPtr.next;             // slowPtr is shifted to the next node
         	fastPtr = fastPtr.next.next;		// fastPtr is shifted to next to next node

@@ -42,7 +42,8 @@ public class singleLinkedListSearchAnElement {
     { 
     	boolean status = false;
         Node current = head; 
-        while (current != null) { 
+        while (current != null)
+        { 
         	if(current.data == value)
         	{
         		status = true;

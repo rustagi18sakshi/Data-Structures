@@ -26,7 +26,8 @@ public class singleLinkedListReverse {
 	    public static void printList(Node head) 
 	    { 
 	        Node current = head; 
-	        while (current != null) { 
+	        while (current != null) 
+	        { 
 	            System.out.print(current.data + " "); 
 	            current = current.next; 
 	        } 
@@ -52,7 +53,9 @@ public class singleLinkedListReverse {
 	        Node current = head; 
 	        Node next = null;
 	        Node previous = null;
-	        while (current != null) { 
+	        
+	        while (current != null)
+	        { 
 	        	next = current.next;
 	        	current.next = previous;
 	        	previous = current;

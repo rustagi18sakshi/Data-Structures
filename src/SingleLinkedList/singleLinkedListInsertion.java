@@ -15,6 +15,7 @@ public class singleLinkedListInsertion {
 			this.data = data;
 			this.next = null;
 		}
+		
 	}
 	
     // This method is used to display the values of the linked list
